@@ -5,7 +5,7 @@ pipeline {
     }
 
     tools {
-        maven 'maven'  // Ensure this matches the name configured in Jenkins
+        maven 'mvn'  // Ensure this matches the name configured in Jenkins
     }
     stages {
         stage('Checkout') {
